@@ -1,0 +1,12 @@
+package com.theo.github.domain
+
+class Calculations {
+
+    fun add(a: Int, b: Int): Int {
+        return a + b
+    }
+
+    fun subtract(a: Int, b: Int): Int {
+        return a - b
+    }
+}
