@@ -16,4 +16,10 @@ class CalculationsTest {
         val calculations = Calculations()
         assertEquals(0, calculations.subtract(2, 2))
     }
+
+    @Test
+    fun multiplication_isCorrect() {
+        val calculations = Calculations()
+        assertEquals(4, calculations.multiply(2, 2))
+    }
 }
