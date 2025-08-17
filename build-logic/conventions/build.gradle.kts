@@ -1,7 +1,7 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     `kotlin-dsl`
-    alias(libs.plugins.android.lint)
 }
 
 group = "com.theo.buildlogic"
@@ -21,5 +21,4 @@ kotlin {
 
 dependencies {
     compileOnly(libs.android.gradlePlugin)
-    compileOnly(libs.android.tools.common)
 }
